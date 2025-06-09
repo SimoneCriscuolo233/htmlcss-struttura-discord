@@ -18,14 +18,6 @@ header {
   display: flex;
 }
 
-.pxy-5 {
-  padding: 5px 5px;
-}
-
-.py-30 {
-  padding: 30px 0px;
-}
-
 .sm-container {
   min-width: 800px;
   max-width: 800px;
@@ -42,13 +34,31 @@ header {
   display: flex;
 }
 
+.box-height {
+  min-height: 400px;
+}
+
 .margin {
   margin: 25px auto;
 }
 
-.box-height {
-  min-height: 400px;
+/*****Padding*******/
+.pxy-5 {
+  padding: 5px 5px;
 }
+
+.pyt-8 {
+  padding-top: 8px;
+}
+
+.pyb-20 {
+  padding-bottom: 20px;
+}
+
+.py-30 {
+  padding: 30px 0px;
+}
+
 
 /******Border settings*******/
 .border {
@@ -64,6 +74,10 @@ header {
 }
 
 /******Colums size********/
+.col-15 {
+  width: 15%;
+}
+
 .col-20 {
   width: 20%;
 }
