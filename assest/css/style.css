@@ -13,7 +13,7 @@ header {
 /*********Tools**********/
 .container {
   min-width: 1000px;
-  min-height: ;
+  max-width: 1000px;
   margin: 0 auto;
   display: flex;
 }
@@ -38,6 +38,10 @@ header {
   margin: 25px auto;
 }
 
+.box-height {
+  min-height: 400px;
+}
+
 /******Border settings*******/
 .border {
   border: 2px dotted;
@@ -58,6 +62,10 @@ header {
 
 .col-60 {
   width: 60%;
+}
+
+.col-40 {
+  width: 40%;
 }
 
 /******Text alignment*******/
@@ -86,7 +94,7 @@ header {
   background-color: #1E90FF;
 }
 
-.bg-ligthpink {
+.bg-lightpink {
   background-color: #FFC0CA;
 }
 
@@ -112,4 +120,8 @@ header {
 
 .bg-lightgreen {
   background-color: #7FFFD4;
+}
+
+.bg-white {
+  background-color: #fff;
 }
