@@ -34,6 +34,14 @@ header {
   display: flex;
 }
 
+.big-container {
+  min-width: 1000px;
+  max-width: 1000px;
+  min-height: 800px;
+  margin: 0 auto;
+  display: flex;
+}
+
 .margin {
   margin: 25px auto;
 }
