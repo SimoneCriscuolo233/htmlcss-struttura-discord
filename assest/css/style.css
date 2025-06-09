@@ -16,6 +16,10 @@ footer {
   padding-top: 15px;
 }
 
+footer .container {
+  min-height: 50px;
+}
+
 /*********Tools**********/
 .container {
   min-width: 1000px;
@@ -152,4 +156,10 @@ footer {
 
 .bg-white {
   background-color: #fff;
+}
+
+.box {
+  align-items: center;
+  justify-content: space-between;
+
 }
