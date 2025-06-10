@@ -11,12 +11,10 @@ header {
 }
 
 footer {
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
   padding-top: 15px;
 }
 
-footer .container {
+.bottom-footer .container {
   min-height: 50px;
 }
 
@@ -28,6 +26,13 @@ ul {
 
 li {
   margin: 0px 5px;
+}
+
+.top-footer {}
+
+.bottom-footer {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
 /*********Tools**********/
